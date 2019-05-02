@@ -40,23 +40,18 @@
     ==========================================-->
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
   <div class="container"> 
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="index.html"><i class="fa fa-sun-o"></i> Atlas People<strong></strong></a> </div>
+      <a class="navbar-brand" href="/"><i class="fa fa-sun-o"></i> Atlas People<strong></strong></a> </div>
     
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home" class="page-scroll">Home</a></li>
         <li><a href="#services-section" class="page-scroll">Services</a></li>
-        <li><a href="#works-section" class="page-scroll">Portfolio</a></li>
         <li><a href="#about-section" class="page-scroll">About</a></li>
-        <li><a href="#team-section" class="page-scroll">Team</a></li>
         <li><a href="#contact-section" class="page-scroll">Contact</a></li>
       </ul>
     </div>
-    <!-- /.navbar-collapse --> 
   </div>
   <!-- /.container-fluid --> 
 </nav>
@@ -65,7 +60,7 @@
 <header class="text-center" name="home">
   <div class="intro-text">
     <h1>Welcome to <strong>Atlas People</strong></h1>
-    <p>We are a full-service integrated recruitment agency</p>
+    <p>We desire to build a smart world</p>
     <a href="#services-section" class="btn btn-default btn-lg page-scroll">LEARN MORE</a> </div>
 </header>
 
@@ -101,121 +96,7 @@
     </div>
   </div>
 </div>
-<!-- Portfolio Section -->
-<div id="works-section">
-  <div class="container"> <!-- Container -->
-    <div class="section-title text-center center">
-      <h2>Hot vacancies</h2>
-      <hr>
-      <div class="clearfix"></div>
-    </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Backend</a></li>
-            <li><a href="#" data-filter=".app">Project management</a></li>
-            <li><a href="#" data-filter=".branding">Other</a></li>
-          </ol>
-        </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{% static 'img/portfolio/the-php-practitioner.jpg' %}" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Symfony PHP</h4>
-                <small>Ukraine</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="{% static 'img/portfolio/the-php-practitioner.jpg'%}" class="img-responsive" alt="Symfony PHP"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{% static 'img/portfolio/02.jpg' %}" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="{% static 'img/portfolio/02.jpg' %}" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{% static 'img/portfolio/java-logo.jpg' %}" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Java Developer</h4>
-                <small>Amsterdam</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="{% static 'img/portfolio/java-logo.jpg' %}" class="img-responsive" alt="Java Developer"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{% static 'img/portfolio/04.jpg' %}" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="{% static 'img/portfolio/04.jpg' %}" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{% static 'img/portfolio/05.jpg' %}" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="{% static 'img/portfolio/05.jpg' %}" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{% static 'img/portfolio/06.jpg' %}" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Branding</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="{% static 'img/portfolio/06.jpg' %}" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{% static 'img/portfolio/07.jpg' %}" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development, Branding</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="{% static 'img/portfolio/07.jpg' %}" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="{% static 'img/portfolio/08.jpg' %}" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="{% static 'img/portfolio/08.jpg' %}" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 <!-- About Section -->
 <div id="about-section">
   <div class="container">
@@ -229,92 +110,41 @@
       <div class="col-md-6"> <img src="{% static 'img/about.jpg' %}" class="img-responsive"> </div>
       <div class="col-md-6">
         <div class="about-text">
-          <h4>Who We Are</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.</p>
-          <h4>What We Do</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.</p>
-          <h4>Why Choose Us</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+          <h4>Tech people looking for tech people</h4>
+          <p>Every recruiter in the team has a technical background and experience in Software development.</p>
+          <h4>Automated sourcing</h4>
+          <p>We build a tool to make the recruitment process faster, but not less qualitative</p>
+          <h4>Result orientation</h4>
+          <p>We strive to make our cooperation with clients as comfortable as possible and for each one of them offer a customized approach.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 <!-- Achievements Section -->
 <div id="achievements" class="section dark-bg">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 col-sm-3">
+      <div class="col-md-4 col-sm-4">
         <div class="achievement-box"> <span class="count">21</span>
           <h4>Happy clients</h4>
         </div>
       </div>
-      <div class="col-md-3 col-sm-3">
+      <div class="col-md-4 col-sm-4">
         <div class="achievement-box"> <span class="count">114</span>
           <h4>Find Candidates</h4>
         </div>
       </div>
-      <div class="col-md-3 col-sm-3">
+      <div class="col-md-4 col-sm-4">
         <div class="achievement-box"> <span class="count">86</span>
           <h4>Get a job</h4>
         </div>
       </div>
-      <div class="col-md-3 col-sm-3">
-        <div class="achievement-box"> <span class="count">14</span>
-          <h4>Awards won</h4>
-        </div>
-      </div>
     </div>
   </div>
 </div>
-<!-- Team Section -->
-<div id="team-section" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Meet the Team</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
-    </div>
-    <div id="row">
-      <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="{% static 'img/team/01.jpg' %}" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>John Doe</h3>
-            <p>Founder / CEO</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="{% static 'img/team/02.jpg' %}" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Mike Doe</h3>
-            <p>Web Designer</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="{% static 'img/team/03.jpg' %}" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Jane Doe</h3>
-            <p>Creative Director</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="{% static 'img/team/04.jpg' %}" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Larry Show</h3>
-            <p>Project Manager</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 <!-- Contact Section -->
 <div id="contact-section" class="text-center">
   <div class="container">
@@ -325,21 +155,19 @@
     </div>
     <div class="col-md-8 col-md-offset-2">
       <div class="col-md-4"> <i class="fa fa-map-marker"></i>
-        <p>4321 California St,<br>
-          San Francisco, CA 12345</p>
+        <p>Uzhgorod<br>
+          Ukraine</p>
       </div>
       <div class="col-md-4"> <i class="fa fa-envelope-o"></i>
-        <p>info@company.com</p>
+        <p>contact@atlaspeople.org</p>
       </div>
       <div class="col-md-4"> <i class="fa fa-phone"></i>
         <p> +380 95 887 5994</p>
       </div>
-      <hr>
-      <div class="clearfix"></div>
     </div>
     <div class="col-md-8 col-md-offset-2">
       <h3>Leave us a message</h3>
-      <form name="sentMessage" id="contactForm" novalidate>
+      <form name="sentMessage" method="post" id="contactForm" novalidate>
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
@@ -364,17 +192,16 @@
     </div>
   </div>
 </div>
-</div>
 <div id="social-section">
   <div class="container">
     <div class="social">
       <ul>
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+{#        <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+{#        <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+{#        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>#}
+{#        <li><a href="#"><i class="fa fa-github"></i></a></li>#}
+{#        <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
+        <li><a href="https://www.linkedin.com/company/atlas-people/"><i class="fa fa-linkedin"></i></a></li>
       </ul>
     </div>
   </div>
@@ -382,7 +209,7 @@
 <div id="footer">
   <div class="container">
     <div class="fnav">
-      <p>Copyright &copy; Atlas People. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+      <p>Copyright &copy; Atlas People.</p>
     </div>
   </div>
 </div>
