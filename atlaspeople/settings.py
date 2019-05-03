@@ -25,7 +25,7 @@ SECRET_KEY = '-ime&#fg5^(%)lhynk_z-1l77)#6kg1yot%yt+#+-$39dg)74m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['104.155.21.156']
+ALLOWED_HOSTS = ['104.155.21.156', 'atlaspeople.org', 'www.atlaspeople.org']
 
 
 # Application definition
